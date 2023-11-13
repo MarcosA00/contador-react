@@ -1,0 +1,76 @@
+/* Estilos globales */
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body{
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header {
+  margin-top: 10rem;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -2rem;
+}
+
+/* Estilos generales */
+h1 {
+  background-color: gray;
+  padding: 2rem;
+  font-size: 80px;
+  border: 5px solid rgb(0, 0, 0);  
+  border-radius: 8px;
+}
+h2 {
+  color: black;
+  background-color: orange;
+  min-width: 10rem;
+  height: 5rem;
+  text-align: center;
+  font-size: 60px;
+  padding-bottom: 1rem;
+  border: 5px solid black;
+  border-radius: 8px;
+}
+button {
+  background-color: orangered;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  font-size: 40px;
+  border: 3px solid black;
+  border-radius: 8px;
+}
+button:hover {
+  background-color: rgb(132, 37, 2);
+}
+
+/* Estilos asignados */
+.countControler{
+  margin: 1.3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 10rem;
+  height: 2rem;
+}
+.restart {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 9rem;
+  font-size: 25px;
+}
+.restart:hover {
+  background-color: rgb(151, 0, 0);
+}
